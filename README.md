@@ -9,6 +9,8 @@ Uygulamada bulunan özellikler:
 
 -Geçmiş zamana ait verileri gösterme
 
+-Kullanıcının istediği tarihe ait verileri gösterme
+
 -Kur hesaplayıcı
 
 Bu verileri https://www.tcmb.gov.tr/kurlar/today.xml üzerinden aldım
