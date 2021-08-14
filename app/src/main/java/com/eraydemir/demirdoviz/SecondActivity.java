@@ -50,6 +50,11 @@ public class SecondActivity extends AppCompatActivity {
 
         Date bugun = new Date();
 
+        //TCMB'nin geçmiş günlere ait verilere "https://www.tcmb.gov.tr/kurlar/yıl+ay/"gün+ay+yıl".xml" formatındaki linkler ile ulaşabiliyoruz.
+        //Bu yüzden önceki ait günlerin linkini oluşturma için SimpleDataFormat yardımı ile istediğim güne ait linkleri oluştum.
+        //NOT: TCMB hafta sonu kapalı olduğu için hafta sonunun günlerine erişilmiyor.
+        //Bu yüzden eğer seçilen gün hafta sonuna denk geliyor ise o haftanın cuma gününe ait tarihini alarak link oluşturdum. 
+        //Burada günlük, haftalık, aylık ve yıllık değişimler için gereken linkleri oluşturdum.
 
         Calendar cbugun = Calendar.getInstance();
         cbugun.setTime(bugun);
