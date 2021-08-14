@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         HttpURLConnection baglanti = null;
 
+        //XML Parçalama işlemi
         try {
             URL b_url = new URL(bugun_url);
             baglanti = (HttpURLConnection) b_url.openConnection();
